@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: go-demo-2-db
 spec:
+  type: NodePort
   ports:
   - port: 27017
   selector:
